@@ -1,0 +1,225 @@
+<!-- Orignal Template -->
+
+<!-- <section class="smart-scroll">
+            <div class="container-lg">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" id="burger_menu_links"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto mobile-nav">
+                            {{#page.header_nav.nav1.show_or_hide}}
+                            <li class="nav-item">
+                                <a class="nav-link" href="/#my-projects">{{page.header_nav.nav1.text}}</a>
+                            </li>
+                            {{/page.header_nav.nav1.show_or_hide}}
+
+                            {{#page.header_nav.nav2.show_or_hide}}
+                            <li class="nav-item">
+                                <a class="nav-link"  href="/#tech-skills">{{page.header_nav.nav2.text}}</a>
+                            </li>
+                            {{/page.header_nav.nav2.show_or_hide}}
+
+                            {{#page.header_nav.nav3.show_or_hide}}
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank"  href="https://storage.turbo360.co/my-portfolio-fctgxi/resume-dev.pdf">{{page.header_nav.nav3.text}}</a>
+                            </li>
+                            {{/page.header_nav.nav3.show_or_hide}}
+
+                            {{#page.header_nav.nav4.show_or_hide}}
+                            <li class="nav-item">
+                                <a class="nav-link"  href="/#contact-form">{{page.header_nav.nav4.text}}</a>
+                            </li>
+                            {{/page.header_nav.nav4.show_or_hide}}
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+</section> -->
+
+<!-- <section id="hero_section" style="background:url('{{{page.hero.img_background }}}=s2048');background-size:cover;background-position:center;">
+    <div class="gradient-div py-3" style="height: 75vh;">
+      <div class="container">
+        <div id="mobile-menu-mod" class="row">
+            <div class="text-center" id="intro">
+                <h3 class="animate-gradient" id="sub-title1">{{ page.hero.greeting }}</h3>
+
+                    <h4 class="tsar uline" id="sub-title2">{{ page.hero.myHeader }}</h4>
+                    <h4 class="" id="sub-title3">{{ page.hero.cliffNote1 }}</h4>
+                    <h4 class="" id="sub-title4">{{ page.hero.cliffNote2 }}</h4>
+                    <h4 class="" id="sub-title5">{{ page.hero.cliffNote3 }}</h4>
+                    
+                    <button class="btn btn-danger" id="modal-btn" data-toggle="modal" data-target="#bioModal" >More Details</button>
+
+                  
+
+                      <!-- Modal -->
+<!-- <div class="modal fade" id="bioModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title uline" id="exampleModalLongTitle">My Bio</h5>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5>Education</h5>
+                <p>{{ page.hero.modalBio_edu }}</p>
+                <hr />
+                <h5>Perspective</h5>
+                <p>{{ page.hero.modalBio_career }}</p>
+                <hr />
+                <h5>Philosophy</h5>
+                <p>{{ page.hero.modalBio_philos }}</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="my-projects" class="py-5 py-md-7 gradient-div-red">
+    <div class="container py-md-5">
+        <div class="row block-header">
+            <div class="col-sm-8 mx-auto text-center">
+                <h1 class="display-4 mt-2 uline">{{ page.projects.header }}</h1>
+                <hr />
+                <h3>{{ page.projects.subheader }}</h3>
+            </div>
+        </div>
+        <div class="row mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+            {{#projects}}
+                <div class="col-md-4 col-sm-12 mb-2r">
+                    <a href="/project/{{ slug }}">
+                        <div class="position-relative project">
+                            <div class="image position-relative">
+                                <img src="{{{image}}}=s650-c" class="img-fluid w-100 d-block" />
+                                <div class="overlay-box">
+                                    <div class="overlay-inner overlay-content">
+                                        <h5 class="mb-0">{{ name }}</h5>
+                                        <p>{{ category }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {{/projects}}
+        </div>
+    </div>
+</section>
+
+
+
+{{! Technical Skills  }}
+
+<section id="tech-skills"
+    style="background:url('{{{page.hero.img_background }}}=s2048');background-size:cover;background-position:center;"
+    class="py-md-5 block gradient-div">
+    <div class="container">
+        <div class="row block-header">
+            <div class="col-sm-8 mx-auto text-center">
+                <h1 class="display-4 mt-2">Technical Skills</h1>
+                <hr />
+            </div>
+        </div>
+
+
+
+
+        <div id="tech-skills" class="row mt-5">
+            {{#page.services}}
+                <div class="col-xl-3 service mb-5 aos-init aos-animate">
+                    <img class="icon mr-4" src="{{{img_feature}}}" />
+                    <div class="content">
+                        <h5>{{ name }}</h5>
+                        <p>{{ desc }}</p>
+                    </div>
+                </div>
+            {{/page.services}}
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact Form -->
+<!-- <section id="contact-form" class="py-md-5 block text-center contact-block gradient-div-red">
+    <div class="container">
+        <div class="row block-header">
+            <div class="col-sm-8 mx-auto text-center">
+                <h1 class="display-4 mt-2 section-title">
+                    {{ page.contact.header }}
+                </h1>
+                <hr />
+                <p class="lead">{{ page.contact.subheader }}</p>
+                <p class="lead" style="font-size: xx-large;">OR</p>
+                <p class="lead">{{ page.contact.prof_email }}</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <form class="col-md-4 col-xl-4 mx-auto input-border">
+                <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" id="contact-form-name" placeholder="Name" />
+                </div>
+                <div class="form-group">
+                    <input type="text" id="contact-form-email" class="form-control form-control-lg"
+                        placeholder="Email" />
+                </div>
+                <div class="form-group">
+                    <textarea type="text" class="form-control form-control-lg" id="contact-form-message" rows="3"
+                        placeholder="Message"></textarea>
+                </div>
+                <button id="btn-contact-submit" class="btn btn-block btn-lg btn-info">
+                    Send
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<footer class="pt-3">
+    <div class="container pt-5 pb-5">
+        <div class="row">
+
+
+            <div id="contact-ctx" class="col-md-12 text-center gradient-div">
+                <h1 id="social-media">@</h1>
+
+                <ul class="list-inline social social-white-alt social-rounded social-sm mb-0">
+                    {{#page.social.twitter.show_or_hide}}
+                        <li class="list-inline-item"><a href="{{{page.social.twitter.link}}}" target="_blank"><i
+                                    class="fa fa-twitter"></i></a></li>
+                    {{/page.social.twitter.show_or_hide}}
+
+                    {{#page.social.linkedin.show_or_hide}}
+                        <li class="list-inline-item"><a href="{{{page.social.linkedin.link}}}" target="_blank"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                    {{/page.social.linkedin.show_or_hide}}
+
+                    {{#page.social.github.show_or_hide}}
+                        <li class="list-inline-item"><a href="{{{page.social.github.link}}}" target="_blank"><i
+                                    class="fa fa-github"></i></a></li>
+                    {{/page.social.github.show_or_hide}}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+{{>scripts}}
+<script src="{{{cdn}}}/js/contact.js"></script>
+</body>
+
+</html> --> --> -->

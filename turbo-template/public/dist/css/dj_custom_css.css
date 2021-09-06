@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&display=swap');
+#my-projects {
+    background-color: darkred;
+}
+
+#my-projects h1 {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#my-projects h3 {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#my-projects h5 {
+    color: darkred;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#my-projects p {
+    color: black;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#tech-skills {
+    color: whitesmoke;
+    background-color: black;
+}
+
+#tech-skills h1 {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#tech-skills p {
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: larger;
+}
+
+#contact-form {
+    background-color: darkred;
+}
+
+#contact-form h1 {
+    color: whitesmoke;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#contact-form p {
+    color: whitesmoke;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#contact-form button {
+    background-color: black;
+}
+
+.gradient-div-red {
+    width: 100%;
+    background-image: linear-gradient(rgba(51, 7, 7, 0.568), rgba(190, 8, 8, 0.5), rgba(241, 4, 4, 0.7));
+}
+
+@keyframes name {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+#mobile-menu-mod {
+    margin-top: 4.5rem;
+}
+
+.lead {
+    font-size: larger;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+#social-media {
+    color: darkred;
+}
+
+.animated-gradient-purple {
+    background: linear-gradient(-45deg, #000000 0%, #000000 13%, #000000 25%, #000000 38%, #4d0553 50%, #000000 62%, #000000 75%, #000000 87%, #4d0553 100%);
+    background-size: 400% 400%;
+    animation: gradient 13s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-gradient-purple-inverse {
+    background: linear-gradient(-45deg, #4d0553 0%, #413f3f 13%, #4d0553 25%, #4d0553 38%, #000000 50%, #4d0553 62%, #4d0553 75%, #4d0553 87%, #242323 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-gradient-red {
+    background: linear-gradient(-45deg, #000000 0%, #000000 13%, #000000 25%, #000000 38%, #720c0c 50%, #000000 62%, #000000 75%, #000000 87%, #720c0c 100%);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-gradient-red-inverse {
+    background: linear-gradient(-45deg, #720c0c 0%, #413f3f 13%, #720c0c 25%, #720c0c 38%, #000000 50%, #720c0c 62%, #720c0c 75%, #720c0c 87%, #242323 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-gradient-red-inverse-delayed {
+    background: linear-gradient(-45deg, #720c0c 0%, #413f3f 13%, #720c0c 25%, #720c0c 38%, #000000 50%, #720c0c 62%, #720c0c 75%, #720c0c 87%, #242323 100%);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-gradient-purple h2 {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    margin-left: 25px;
+    font-size: 3rem;
+    line-height: 70px;
+    font-weight: 600;
+    position: absolute;
+}
+
+.animated-gradient-red h2 {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    margin-left: 25px;
+    font-size: 3rem;
+    line-height: 70px;
+    font-weight: 600;
+    position: absolute;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+.nav-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.open-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav.visible {
+    transform: translateX(0);
+}
+
+.nav-white {
+    background-color: silver;
+    width: 80%;
+    padding: 40px;
+    position: relative;
+    transition-delay: 0s;
+    border-style: solid;
+    border-color: darkred;
+}
+
+.nav-white.visible {
+    transition-delay: 0.4s;
+}
+
+.fa-bars:before {
+    color: white;
+}
+
+.close-btn {
+    color: darkred;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'JetBrains Mono';
+}
+
+.list li {
+    margin: 20px 0;
+}
+
+.list li a {
+    color: darkred;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.list ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#contact-section-header {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 3rem;
+    line-height: 70px;
+    font-weight: 600;
+}
+
+.contact-section-subheader {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* 3D Boxes CSS   */
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    transition: 0.4s ease;
+}
+
+.boxes.big {
+    width: 600px;
+    height: 600px;
+}
+
+.boxes.big .box {
+    transform: rotateZ(360deg);
+}
+
+.box {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    transition: 0.4s ease;
+    opacity: 0.2;
+}
+
+.box::after {
+    content: '';
+    background-color: red;
+    position: absolute;
+    top: 8px;
+    right: -15px;
+    height: 100%;
+    width: 15px;
+    transform: skewY(45deg);
+}
+
+.box::before {
+    content: '';
+    background-color: red;
+    position: absolute;
+    bottom: -15px;
+    left: 8px;
+    height: 15px;
+    width: 100%;
+    transform: skewX(45deg);
+}
+
+#mobile-navbar {
+    opacity: 0;
+}
+
+/**** MEDIA QUERIES ****/
+
+@media (max-width: 850px) {
+    #hero_section h2 {
+        font-size: .9rem;
+        margin-bottom: 21rem;
+    }
+    #my-projects h1 {
+        font-size: xx-large;
+    }
+    #my-projects h3 {
+        font-size: small;
+    }
+    .mobile-hide {
+        opacity: 0 !important;
+    }
+    #tech-skills {
+        padding-top: 18rem;
+        margin-top: 17rem;
+    }
+    #tech-skills h1 {
+        padding-top: 5rem;
+    }
+    #contact-form h1 {
+        font-size: small;
+    }
+    #contact-form button {
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+    #mobile-navbar {
+        opacity: 1;
+    }
+    .mobile-navbar {
+        position: fixed;
+        z-index: 1;
+        background-color: black;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+        border: 5px solid silver;
+    }
+    .mobile-navbar .mobile-navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        transition: all 0.3s ease-in-out;
+        margin-right: 65px;
+    }
+    .mobile-navbar ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-navbar a {
+        color: whitesmoke;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 1rem;
+        text-decoration: none;
+        padding: 7px 5px;
+        transition: all 0.3s ease-in-out;
+    }
+    .mobile-navbar.active {
+        background-color: silver;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    .mobile-navbar.active a {
+        color: red;
+    }
+    .mobile-navbar.active .mobile-navbar-container {
+        padding: 10px 0;
+    }
+    .mobile-navbar a.current, .mobile-navbar a:hover {
+        color: red;
+        font-weight: bold;
+    }
+}

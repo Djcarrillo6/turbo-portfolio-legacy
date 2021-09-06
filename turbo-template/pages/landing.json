@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm DJ. I design & build web & mobile apps.",
+    "introduction": "I'm a former hospitality professional with a passion for programming & technology.  I create and develop web & mobile applications of all kinds, and utilize my unique hospitality perspective to analyze challenges from all possible perspectives.",
+    "myHeader": "About Me: ",
+    "cliffNote1": " - I worked in the hospitality sector for 10 years.",
+    "cliffNote2": " - Bilingual in spoken languages, multilingual in software lagnguages.",
+    "cliffNote3": " - I used to open & manage restuarants, now I build ideas.",
+    "intro2": "I ,specialize in eCommerce sites & customized apps for the food & beverage sector.",
+    "intro3": "If you would like to take a look at my work, feel free to demo the projects below!",
+    "modalBio_edu": "I graduated from Calfornia State University of Long Beach with a BA in Economics in June of 2010. In July of 2020, I received a certificate of completion from CodingDojo's immersive full-stack web developer program.",
+    "modalBio_career": "After college, I immediately jumped into what would become a 10 year career in the hospitality sector, primarily working in the two areas of hotel management and restuarant operations.  My previous work experience in this field shaped my critical thinking methods & practices, while also exposing me to an array of invaluable expierence based lessons; especially with respect to solving complex multi-variant challenges.",
+    "modalBio_philos": "All throughout my life I have alawys been captivated by the power of technology.  As a former hospitality professional turned software engineer, I now utilize the power of software development to design and build creative ideas and customized solutions. I specialize in web & mobile applications, and utilize my unique hospitality perspective to analyze challenges and opportunities from all possible perspectives.",
+    "img_background": "https://lh3.googleusercontent.com/HGLr5X98NXBXLMG07uQQ5OxZQszyrfJKrdHaoUrH9JgFgS1g5atdyPJ2SAkz6Lvaub15WPgQs6PGsuib4jsaQSed",
+    "img_profile": "https://lh3.googleusercontent.com/Ngxqe7YrcY3rtbMV4Rk8slj-EeNFxriCpv9LOjmEa8B4PBEXeQmQXnoZl2jfaMyBfLWVv_nRikZ0KKUZRhnxOW4R"
+  },
+  "projects": {
+    "header": "Project Gallery",
+    "subheader": "Take a look at my recent projects!"
+  },
+  "services": [
+    {
+      "name": "Languages",
+      "img_feature": "https://lh3.googleusercontent.com/f86CXF4pFfSWUpbGlz7dbZp3asDbUFWpFBSb63jNUml55fXjRlKQjDF9eJQseUwgSUEdiD0Qct3_UnUZYxp99ds90A=-c",
+      "desc": "JavaScript | Python | Java |  C# | HTML/CSS"
+    },
+    {
+      "name": "Databases",
+      "img_feature": "https://lh3.googleusercontent.com/k7I2m1DDeo2Szyl1vgoznsBCOqJtwq4U3GHe9laeLPF0yg_g871zi0Avxp6ZQZnsVfMDtrQ4QnNOJiJXFBi6X5Yung=-c",
+      "desc": "MySQL | SQL | MongoDB"
+    },
+    {
+      "name": "Frameworks/Libraries",
+      "img_feature": "https://lh3.googleusercontent.com/Rei8AMjAxOqoVn5DNsKiH9-yrwcISuMlgphjJTjxRtvbOF28C2WIzmXXVympoVhqu4HcidAYY_WTNwq-S0WcTSpOqg=-c",
+      "desc": "React.js | Node.js | Express.js | Django | JRE-JDK-JVM | SpringWeb | ASP.NET Core | Bootstrap | Redux"
+    },
+    {
+      "name": "Dev Tools",
+      "img_feature": "https://lh3.googleusercontent.com/irsQ9DNI5dyRwKQDWTBb28sEMgKLgvpw2iewVQkxu42HFdLK9fbDDHPom9tuhS57aUEaQwTPauDYe9vibTIHsUb-xA=-c",
+      "desc": "AWS | Heroku | NPM | NGinix | Ubuntu"
+    }
+  ],
+  "contact": {
+    "header": "Have an idea you would like to develop? Let's connect.",
+    "subheader": "If you would like to send me a message, please submit  the form below.",
+    "prof_email": "Email: Djcarrillo06@gmail.com"
+  },
+  "header_nav": {
+    "nav1": {
+      "text": "Projects",
+      "show_or_hide": true
+    },
+    "nav2": {
+      "text": "Technical Skills",
+      "show_or_hide": true
+    },
+    "nav3": {
+      "text": "Resume",
+      "show_or_hide": true
+    },
+    "nav4": {
+      "text": "Contact",
+      "show_or_hide": true
+    },
+    "nav5": {
+      "text": "Profile",
+      "show_or_hide": true
+    }
+  },
+  "social": {
+    "facebook": {
+      "link": "https://www.facebook.com",
+      "show_or_hide": true
+    },
+    "twitter": {
+      "link": "https://twitter.com/Djcarrill6",
+      "show_or_hide": true
+    },
+    "linkedin": {
+      "link": "https://www.linkedin.com/in/davidcarrillojr/",
+      "show_or_hide": true
+    },
+    "instagram": {
+      "link": "https://www.instagram.com",
+      "show_or_hide": true
+    },
+    "youtube": {
+      "link": "https://www.youtube.com",
+      "show_or_hide": true
+    },
+    "github": {
+      "link": "https://www.github.com/Djcarrillo6",
+      "show_or_hide": true
+    },
+    "dribbble": {
+      "link": "https://www.dribbble.com",
+      "show_or_hide": true
+    }
+  }
+}
